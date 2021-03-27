@@ -1,0 +1,45 @@
+<Doctype>
+<html>
+  <head>
+    <link rel='stylesheet' href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/prism.css">
+  </head>
+  <body>
+    <div class='container'>
+      <span class='title'><img src='imgs/{} GeekLabs.png'></span>
+      <div class='home'>Home</div>
+      <div class='about'>About</div>
+      <div class='contact'>ContactUs</div>
+    </div>
+    <div class='topics'>
+      <div>html</div>
+      <div>css</div>
+      <div>js</div>
+      <div>java</div>
+    </div>
+    <template id='sampleCodeTemplate'>
+      <div class='codeBox'>
+        <div class='codeText'>
+          <h1 class='codeTitle'></h1>
+          <pre class='language-css' class='language-html' class='language-javascript' class='language-java'  ><code class='codeContent'></code></pre>
+          </div>
+          <div class='More'>More</div>
+      </div>
+    </template>
+    <div id='sampleCodes'></div>
+  </div>
+  </body>
+  <script src="js/prism.js"></script>
+    <script type='text/javascript' src='/js/render.js'></script>
+    <script>
+      renderHomePage(
+        document.getElementById('sampleCodes'),
+        document.getElementById('sampleCodeTemplate'),
+    '/data/home.json');
+    </script>
+</html>
+

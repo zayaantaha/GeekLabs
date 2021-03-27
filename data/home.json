@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Html",
+        "text":"\n <head>\n<title>Hello, World!</title>\n</head>\n<body>\n<h1>Hello,World!</h1>\n</body>\n</html>"
+    },
+    {
+        "title":"Css",
+        "text":"body{\nbackground-color:red;\n}"
+    },
+    {
+        "title":"Js",
+        "text":"function name (n){\n\t  let a = ' '; \n \tfor(let i = 0; i < n && i < 5; i++){\n\ta = a + 'Hello' \n\t}\nreturn a\n}\nconsole.log(name(1000))"
+    },
+    {
+        "title":"Java",
+        "text":"public class HelloWorld{\n\tpublic static void main() \n\t{\n\t System.out.println('Hello,World');\n\t}\n}"
+    }
+]
