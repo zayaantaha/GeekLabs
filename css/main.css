@@ -1,32 +1,7 @@
-.container{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items:center;
-    font-size:24px;
-    font-family: 'Ubuntu';
-    margin-top:25px;
-    border-bottom: 1px solid black;
-    padding-bottom:10px;
-}
 
-.title img {
-    height:50px;
-}
-
-.topics{        
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    font-size:24px;
-    font-family: 'Chopsic';
-    src: url('fonts/Chopsic-K6Dp 2.ttf') format('embedded-opentype');
-    margin-top:25px;
-}
 
 
 .codeBox {
-    background-color: rgba(255,255,255,.2);
     width: 650px;
     max-height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
@@ -37,21 +12,26 @@
   }
 
 .codeBox .codeTitle {
-    font-family: 'Chopsic';
-    src: url('fonts/Chopsic-K6Dp 2.ttf') format('embedded-opentype');
-    margin-left:250px;
+/*    font-family: 'Chopsic'; */
+/*    src: url('fonts/Chopsic-K6Dp 2.ttf') format('embedded-opentype'); */
+    font-family: 'B612';
+    margin-right:auto;
     text-overflow:ellipsis;
+    color:hsl(0, 0%, 7%);
 }
 
 .codeBox .codeContent {
     font-family:Dosis;
 }
-.More{
-    background-color:#111111;
-    color:white;
-    padding:16px 8px;
-    border-radius: 3px;
-    justify-content:space-around;
-    align-items: center;
-    display:flex;
+
+.Morea{
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 13px;
+    text-align: center;
+    color:#dfe6e9;
+    background-color:black; 
+    font-family: 'Sriracha';
 }

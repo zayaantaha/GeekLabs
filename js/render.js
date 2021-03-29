@@ -13,3 +13,18 @@ function renderHomePage(element, template, fileName) {
 	.then(response => response.json())
 	.then(json => render(json));
 }
+
+function renderLayout(){
+	const render = (html) => {
+		const body = document.body.innerHTML;
+		document.open();
+		document.write(html);
+		document.close();
+		document.getElementById("page").innerHTML = body;
+
+	}
+
+	fetch('/layout.html')
+	.then(response => response.text())
+	.then(text => render(text));
+}

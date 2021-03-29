@@ -7,27 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/prism.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class='container'>
-      <span class='title'><img src='imgs/{} GeekLabs.png'></span>
-      <div class='home'>Home</div>
-      <div class='about'>About</div>
-      <div class='contact'>ContactUs</div>
-    </div>
-    <div class='topics'>
-      <div>html</div>
-      <div>css</div>
-      <div>js</div>
-      <div>java</div>
-    </div>
     <template id='sampleCodeTemplate'>
       <div class='codeBox'>
         <div class='codeText'>
           <h1 class='codeTitle'></h1>
           <pre class='language-css' class='language-html' class='language-javascript' class='language-java'  ><code class='codeContent'></code></pre>
           </div>
-          <div class='More'>More</div>
+          <div class='Morea'>More</div>
       </div>
     </template>
     <div id='sampleCodes'></div>
@@ -39,7 +28,9 @@
       renderHomePage(
         document.getElementById('sampleCodes'),
         document.getElementById('sampleCodeTemplate'),
-    '/GeekLabs/data/home.json');
+    'GeekLabs/data/home.json');
+
+    renderLayout();
     </script>
 </html>
 

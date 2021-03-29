@@ -1,0 +1,28 @@
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    font-size:24px;
+    font-family:'B612';
+    margin-top:25px;
+    border-bottom: 1px solid black;
+    padding-bottom:10px;
+}
+
+.title img {
+    height:90px;
+}
+
+.topics{        
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size:24px;
+    color:hsl(0, 0%, 7%);
+/*    font-family: 'Chopsic'; */
+/*    src: url('fonts/Chopsic-K6Dp 2.ttf') format('embedded-opentype'); */
+    font-family: 'Sriracha';
+    margin-top:25px;
+}
+
