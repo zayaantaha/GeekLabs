@@ -1,6 +1,3 @@
-.home{
-    font-family: 'Bebas Neue';
-}
 .codeBox {
     width: 650px;
     max-height: 500px;
@@ -26,12 +23,19 @@
     margin-right:auto;
     text-overflow:ellipsis;
     color:hsl(0, 0%, 7%);
-    font-size: 50px;
 }
 
 .codeBox .codeContent {
-    font-family:'Dosis';
-    
+    font-family: 'Roboto Mono';
+    border-radius: .5em;
+    border: .3em solid hsl(0, 0%, 33%);
+    box-shadow: 1px 1px 0.5em black inset;
+    margin: .5em 0;
+    overflow: auto;
+    padding: 0.5em;
+    background-color: hsl(200, 4%, 16%);
+    text-shadow: none;  
+    color:white;
 }
 
 .Morea{
@@ -43,5 +47,9 @@
     text-align: center;
     color:#dfe6e9;
     background-color:black; 
+    font-family: 'Bebas Neue';
+}
+
+.topics{
     font-family: 'Bebas Neue';
 }

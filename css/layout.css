@@ -4,25 +4,25 @@
     justify-content: space-around;
     align-items:center;
     font-size:24px;
-    font-family:'B612';
+    font-family: 'Bebas Neue';
     margin-top:25px;
     border-bottom: 1px solid black;
     padding-bottom:10px;
 }
 
-.title img {
-    height:90px;
+.title a {
+    color:black;
+    font-family:'Major Mono Display';
+    text-decoration: none;
 }
 
 .topics{        
+    font-family: 'Bebas Neue';
     display:flex;
     flex-direction:row;
     justify-content: space-around;
     font-size:24px;
     color:hsl(0, 0%, 7%);
-/*    font-family: 'Chopsic'; */
-/*    src: url('fonts/Chopsic-K6Dp 2.ttf') format('embedded-opentype'); */
-    font-family: 'Sriracha';
     margin-top:25px;
 }
 
